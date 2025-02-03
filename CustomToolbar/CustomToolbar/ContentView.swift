@@ -73,7 +73,6 @@ struct ContentView: View {
                     SampleView(title: "Folder")
                 }
             }
-            .navigationTitle("Item List")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .bottomBar) {
