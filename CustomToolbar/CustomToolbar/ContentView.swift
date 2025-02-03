@@ -76,7 +76,7 @@ struct ContentView: View {
             .navigationTitle("Item List")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
-                ToolbarItem(placement: .principal) {
+                ToolbarItem(placement: .bottomBar) {
                     HStack(spacing: 15) {
                         ToolbarButton(identifier: .profile,
                                       image: "person.circle.fill",
